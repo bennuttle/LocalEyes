@@ -39,30 +39,15 @@ public class FTPTask extends AsyncTask {
         fragment = cameraFragment;
         index = 0;
         //this.collisionDir = collisionDir;
-
-        try {
-            JSch ssh = new JSch();
-            session = ssh.getSession("4chan", "52.168.21.141", 22);
-            // Remember that this is just for testing and we need a quick access, you can add an identity and known_hosts file to prevent
-            // Man In the Middle attacks
-            java.util.Properties config = new java.util.Properties();
-            config.put("StrictHostKeyChecking", "no");
-            session.setConfig(config);
-            session.setPassword("#hackthegibs0n");
-
-            session.connect();
-            channel = session.openChannel("sftp");
-            channel.connect();
-
-            sftp = (ChannelSftp) channel;
-        } catch (Exception e) {
-
-        }
     }
     @Override
     protected Object doInBackground(Object[] params) {
         System.out.println("ftp task started");
 
+
+        if(sftp == null) {
+            connect();
+        }
 
         try{
 
@@ -79,7 +64,10 @@ public class FTPTask extends AsyncTask {
             } else {
                 Log.v("FILE", "NOTOK");
             }
-            sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + collisionDir + File.separator + fileName);
+            if(sftp != null) {
+                System.out.println("/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
+                sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
+            }
             index = ++index % 10;
 
             Boolean success = true;
@@ -95,6 +83,27 @@ public class FTPTask extends AsyncTask {
             e.printStackTrace();
         }
         return null;
+    }
+
+    private void connect() {
+        try {
+            JSch ssh = new JSch();
+            session = ssh.getSession("4chan", "52.168.21.141", 22);
+            // Remember that this is just for testing and we need a quick access, you can add an identity and known_hosts file to prevent
+            // Man In the Middle attacks
+            java.util.Properties config = new java.util.Properties();
+            config.put("StrictHostKeyChecking", "no");
+            session.setConfig(config);
+            session.setPassword("#hackthegibs0n");
+
+            session.connect();
+            channel = session.openChannel("sftp");
+            channel.connect();
+
+            sftp = (ChannelSftp) channel;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void changeDir(String dir) {
