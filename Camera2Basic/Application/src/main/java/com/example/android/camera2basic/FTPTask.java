@@ -33,10 +33,12 @@ public class FTPTask extends AsyncTask {
     private Channel channel;
     private Session session;
     private int index;
+    private String collisionDir;
     public FTPTask(Camera2BasicFragment cameraFragment) {
         super();
         fragment = cameraFragment;
         index = 0;
+        //this.collisionDir = collisionDir;
 
         try {
             JSch ssh = new JSch();
@@ -77,7 +79,7 @@ public class FTPTask extends AsyncTask {
             } else {
                 Log.v("FILE", "NOTOK");
             }
-            sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + fileName +".jpg");
+            sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + collisionDir + File.separator + fileName);
             index = ++index % 10;
 
             Boolean success = true;
@@ -93,6 +95,10 @@ public class FTPTask extends AsyncTask {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public void changeDir(String dir) {
+        collisionDir = dir;
     }
 
     public void onShutdown() {

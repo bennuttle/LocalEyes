@@ -22,8 +22,12 @@ import java.util.Arrays;
 public class MQTTListener extends AsyncTask {
 
     private Camera2BasicFragment fragment;
+    private FTPTask ftpTask;
     public MQTTListener(Camera2BasicFragment fragment) {
+
         this.fragment = fragment;
+        this.ftpTask = new FTPTask(fragment);
+
     }
 
     private void connect() {
@@ -51,13 +55,15 @@ public class MQTTListener extends AsyncTask {
                             String triggermebaby = Arrays.toString(message.getPayload());
                             System.out.println(topic + ": " + Arrays.toString(message.getPayload()));
 
-                            if(triggermebaby.equals("[84, 114, 105, 103, 103, 101, 114, 101, 100]")){
+                            //if(triggermebaby.equals("[84, 114, 105, 103, 103, 101, 114, 101, 100]")){
                                 System.out.println("I AM SO TRIGGERED");
 
 
                                 //SEND CAMERA PICTURES VIA FTP TO AZURE SERVER
-                                new FTPTask(fragment).execute();
-                            }
+                                ftpTask.changeDir(triggermebaby);
+                                ftpTask.execute();
+                                //new FTPTask(fragment).execute();
+                            //}
                         }
 
                         @Override
@@ -65,7 +71,7 @@ public class MQTTListener extends AsyncTask {
                         }
                     });
                     try {
-                        client.subscribe("mqtt", 1);
+                        client.subscribe("cameras", 1);
                     } catch (MqttException e){
                         //
                     }

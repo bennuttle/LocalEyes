@@ -14,18 +14,19 @@ public class PictureTask implements Runnable {
         this.cameraFragment = cameraFragment;
         collisionCounter = 0;
 
-        ftpTask = new FTPTask(cameraFragment);
+        //ftpTask = new FTPTask(cameraFragment);
     }
 
     @Override
     public void run() {
 
-        if(collisionCounter > 0) {
+        /*if(collisionCounter > 0) {
             collisionCounter--;
             ftpTask.execute();
             //new FTPTask(cameraFragment).execute();
-        }
+        }*/
         cameraFragment.takePicture();
+        //new FTPTask(cameraFragment).execute();
         //new FTPTask(cameraFragment).execute();
     }
 
