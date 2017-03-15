@@ -117,6 +117,7 @@
     <orderEntry type="library" exported="" name="support-v13-25.0.1" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-25.0.1" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="jsch-0.1.51" level="project" />
     <orderEntry type="library" exported="" name="support-media-compat-25.0.1" level="project" />
     <orderEntry type="library" exported="" name="commons-collections4-4.1" level="project" />
     <orderEntry type="library" exported="" name="support-vector-drawable-25.0.1" level="project" />

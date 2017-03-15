@@ -11,17 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="554c8547-3e56-4e82-ab64-26057660a203" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsch_0_1_51.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$5.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" />
@@ -31,15 +25,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/FTPTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/FTPTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/PictureTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/PictureTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$5.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" />
@@ -49,21 +35,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/FTPTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/FTPTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/PictureTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/PictureTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/zip-cache/bk9ZSeyacn64A4396qzGyso2t7A=" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/zip-cache/bk9ZSeyacn64A4396qzGyso2t7A=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/bk9ZSeyacn64A4396qzGyso2t7A=" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/bk9ZSeyacn64A4396qzGyso2t7A=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/debug_c17c5e81c339057f855cea753b73098a52be623b.jar" afterPath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/debug_c17c5e81c339057f855cea753b73098a52be623b.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/dep/dependencies.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$5.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" />
@@ -73,14 +51,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/Camera2BasicFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/FTPTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/FTPTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/PictureTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/android/camera2basic/PictureTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$5.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" />
@@ -90,15 +60,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/Camera2BasicFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/FTPTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/FTPTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/PictureTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/example/android/camera2basic/PictureTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/outputs/apk/Application-debug.apk" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/Application-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Application.iml" afterPath="$PROJECT_DIR$/Application/Application.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build.gradle" afterPath="$PROJECT_DIR$/Application/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/manifest.crc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
@@ -108,7 +81,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/FTPTask.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/FTPTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/PictureTask.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/PictureTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Camera2Basic.iws" />
@@ -156,8 +128,8 @@
       <file leaf-file-name="Camera2BasicFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="437" column="39" selection-start-line="437" selection-start-column="39" selection-end-line="437" selection-end-column="39" />
+            <state relative-caret-position="275">
+              <caret line="922" column="104" selection-start-line="922" selection-start-column="104" selection-end-line="922" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7810#8254#0" expanded="true" />
@@ -170,11 +142,11 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+            <state relative-caret-position="221">
+              <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
               <folding>
-                <element signature="e#1374#1392#0" expanded="true" />
-                <element signature="e#1566#1584#0" expanded="true" />
+                <element signature="e#1535#1553#0" expanded="true" />
+                <element signature="e#1727#1745#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,11 +158,31 @@
       <file leaf-file-name="FTPTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/FTPTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+            <state relative-caret-position="568">
+              <caret line="71" column="86" selection-start-line="71" selection-start-column="86" selection-end-line="71" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChannelSftp.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.51/5d58661526aeec56496f22174074ba9261d1f3ba/jsch-0.1.51-sources.jar!/com/jcraft/jsch/ChannelSftp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="596" column="23" selection-start-line="596" selection-start-column="23" selection-end-line="596" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1680,7 +1672,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic" value="4468752161194" />
+        <entry key="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic" value="4468755914253" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1922,11 +1914,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/PictureTask.java" />
         <option value="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Application/build.gradle" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/LoginActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/PictureTask.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/FTPTask.java" />
       </list>
     </option>
@@ -2382,14 +2374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -2421,32 +2405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
-          <folding>
-            <element signature="e#1374#1392#0" expanded="true" />
-            <element signature="e#1566#1584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="437" column="39" selection-start-line="437" selection-start-column="39" selection-end-line="437" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7810#8254#0" expanded="true" />
-            <element signature="e#8253#8254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/PictureTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -2455,10 +2413,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+          <folding>
+            <element signature="e#1535#1553#0" expanded="true" />
+            <element signature="e#1727#1745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.51/5d58661526aeec56496f22174074ba9261d1f3ba/jsch-0.1.51-sources.jar!/com/jcraft/jsch/ChannelSftp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="596" column="23" selection-start-line="596" selection-start-column="23" selection-end-line="596" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="922" column="104" selection-start-line="922" selection-start-column="104" selection-end-line="922" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7810#8254#0" expanded="true" />
+            <element signature="e#8253#8254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/FTPTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+        <state relative-caret-position="568">
+          <caret line="71" column="86" selection-start-line="71" selection-start-column="86" selection-end-line="71" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

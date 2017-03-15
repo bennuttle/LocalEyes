@@ -23,6 +23,7 @@ dependencies {
     compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
         exclude module: 'support-v4'
     }
+    compile group: 'com.jcraft', name: 'jsch', version: '0.1.51'
     compile 'org.apache.commons:commons-collections4:4.1'
     compile files('libs/commons-net-ftp-2.0.jar')
 }

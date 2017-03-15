@@ -2,6 +2,15 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="C:\Users\nub1buv\.gradle\caches\modules-2\files-2.1\com.jcraft\jsch\0.1.51\6ceee2696b07cc320d0e1aaea82c7b40768aca0f\jsch-0.1.51.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ceee2696b07cc320d0e1aaea82c7b40768aca0f">
+        <dex dex="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\jsch-0.1.51_3b40c55b9197bce92e74d47ce093cf70e4e70574\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\nub1buv\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-collections4\4.1\a4cf4688fe1c7e3a63aa636cc96d013af537768e\commons-collections4-4.1.jar"
         jumboMode="false"
@@ -70,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="439ed673e880c0ec48e134c335e62b81bb0feb94">
+        sha1="575f594f2dc8757dce4573c5a53fe281fcb8b0ed">
         <dex dex="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9236f9881a1d4312ac596e33e780eb1b8ed72f0a\classes.dex" />
     </item>
     <item

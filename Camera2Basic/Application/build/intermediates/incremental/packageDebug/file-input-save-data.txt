@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Mar 15 17:46:14 CET 2017
+#Wed Mar 15 18:08:57 CET 2017
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_list_menu_item_radio.xml
 118.set=ANDROID_RESOURCE

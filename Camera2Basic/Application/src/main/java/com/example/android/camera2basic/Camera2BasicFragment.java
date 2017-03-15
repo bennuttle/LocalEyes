@@ -920,8 +920,7 @@ public class Camera2BasicFragment extends Fragment
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
-                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 1000, 1000, TimeUnit.MILLISECONDS);
-                //mBackgroundHandler.postDelayed(pictureTask, 1000);
+                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 100, 100, TimeUnit.MILLISECONDS);
                 break;
             }
             case R.id.info: {
