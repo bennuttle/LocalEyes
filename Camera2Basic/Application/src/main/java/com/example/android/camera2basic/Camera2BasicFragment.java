@@ -68,6 +68,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
@@ -224,7 +225,9 @@ public class Camera2BasicFragment extends Fragment
     /**
      * A {@link Handler} for running tasks in the background.
      */
-    private Handler mBackgroundHandler;
+    public Handler mBackgroundHandler;
+
+    private ScheduledThreadPoolExecutor threadPoolExecutor;
 
     /**
      * An {@link ImageReader} that handles still image capture.
@@ -247,8 +250,9 @@ public class Camera2BasicFragment extends Fragment
 
         @Override
         public void onImageAvailable(ImageReader reader) {
+            //mBackgroundHandler.post(new ImageSaver(reader.acquireNextImage(), mFile[((imageBufferIndex = imageBufferIndex++ % 10) - 1)]));
             mBackgroundHandler.post(new ImageSaver(reader.acquireNextImage(), mFile[imageBufferIndex]));
-            imageBufferIndex = ++imageBufferIndex % 10;
+            imageBufferIndex = (imageBufferIndex+ 1) % 10;
         }
 
     };
@@ -440,9 +444,14 @@ public class Camera2BasicFragment extends Fragment
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        for (int index = 0; index < 10; index++) {
-            mFile[index] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(index) + ".jpg");
+
+        mFile = new File[10];
+        for (imageBufferIndex = 0; imageBufferIndex < 10; imageBufferIndex++) {
+            mFile[imageBufferIndex] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(imageBufferIndex) + ".jpg");
         }
+        imageBufferIndex = 0;
+
+        threadPoolExecutor = new ScheduledThreadPoolExecutor(5);
     }
 
     @Override
@@ -854,7 +863,7 @@ public class Camera2BasicFragment extends Fragment
                 public void onCaptureCompleted(@NonNull CameraCaptureSession session,
                                                @NonNull CaptureRequest request,
                                                @NonNull TotalCaptureResult result) {
-                    showToast("Saved: " + mFile);
+                    showToast("Saved: " + mFile[imageBufferIndex]);
                     Log.d(TAG, mFile.toString());
                     unlockFocus();
                 }
@@ -906,8 +915,8 @@ public class Camera2BasicFragment extends Fragment
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
-                pictureTask.doInBackground(null);
-                //takePicture();
+                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 1000, 1000, TimeUnit.MILLISECONDS);
+                //mBackgroundHandler.postDelayed(pictureTask, 1000);
                 break;
             }
             case R.id.info: {
