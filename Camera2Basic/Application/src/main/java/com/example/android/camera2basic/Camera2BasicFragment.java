@@ -87,6 +87,7 @@ public class Camera2BasicFragment extends Fragment
     private static final String FRAGMENT_DIALOG = "dialog";
 
     private PictureTask pictureTask;
+    private MQTTListener mqttListener;
 
     static {
         ORIENTATIONS.append(Surface.ROTATION_0, 90);
@@ -436,6 +437,8 @@ public class Camera2BasicFragment extends Fragment
                              Bundle savedInstanceState) {
 
         pictureTask = new PictureTask(this);
+        mqttListener = new MQTTListener(this);
+        mqttListener.execute();
         return inflater.inflate(R.layout.fragment_camera2_basic, container, false);
     }
 

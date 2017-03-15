@@ -93,41 +93,6 @@ public class FTPTask extends AsyncTask {
             System.out.println(e.getMessage().toString());
             e.printStackTrace();
         }
-        /*try {
-            FTPClient ftpClient = new FTPClient();
-            ftpClient.connect("52.168.21.141", 22);
-
-            if (ftpClient.login("4chan", "#hackthegibs0n")) {
-
-                ftpClient.changeWorkingDirectory("~/bcw2017/imgs/");
-
-                ftpClient.enterLocalPassiveMode(); // important!
-                ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
-                String Location = fragment.getActivity().getExternalFilesDir(null).toString();
-                Log.v("DIRECTORY", Location);
-                SecureRandom random = new SecureRandom();
-                String nextSessionId = new BigInteger(130, random).toString(32);
-                Log.v("RANDOM", nextSessionId);
-                String fileName = nextSessionId + ".jpg";
-                String data = Location + File.separator + fileName;
-                FileInputStream in = new FileInputStream(new File(data));
-                boolean result = ftpClient.storeFile(fileName, in);
-                in.close();
-                if (result)
-                    Log.v("upload result", "succeeded");
-                else
-                    Log.v("upload result", "failed");
-                ftpClient.logout();
-                ftpClient.disconnect();
-            }
-        } catch (Exception e) {
-            Log.v("count", "error");
-            e.printStackTrace();
-            SecureRandom random = new SecureRandom();
-            String nextSessionId = new BigInteger(130, random).toString(32);
-            Log.v("RANDOM", nextSessionId);
-        }*/
-
         return null;
     }
 }

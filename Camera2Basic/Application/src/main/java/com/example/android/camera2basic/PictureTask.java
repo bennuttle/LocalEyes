@@ -7,13 +7,20 @@ package com.example.android.camera2basic;
 public class PictureTask implements Runnable {
 
     private Camera2BasicFragment cameraFragment;
+    int collisionCounter;
     public PictureTask(Camera2BasicFragment cameraFragment) {
         this.cameraFragment = cameraFragment;
+        collisionCounter = 0;
     }
 
     @Override
     public void run() {
+
+        if(collisionCounter > 0) {
+            collisionCounter--;
+            new FTPTask(cameraFragment).execute();
+        }
         cameraFragment.takePicture();
-        new FTPTask(cameraFragment).execute();
+        //new FTPTask(cameraFragment).execute();
     }
 }
