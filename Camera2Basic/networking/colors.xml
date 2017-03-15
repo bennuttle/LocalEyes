@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightblue">#008ECF</color>
+    <color name="darkblue">#005691</color>
+    <color name="red">#E20015</color>
+    <color name="lightgray">#D7D7DA</color>
+    <color name="magenta">#B90276</color>
+    <color name="turquoise">#00A8B0</color>
+    <color name="darkgray">#525F6B</color>
+    <color name="darkgreen">#006249</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
