@@ -28,22 +28,19 @@ import com.jcraft.jsch.SftpException;
 
 public class FTPTask extends AsyncTask {
 
-    Camera2BasicFragment fragment;
+    private Camera2BasicFragment fragment;
+    private ChannelSftp sftp;
+    private Channel channel;
+    private Session session;
     private int index;
     public FTPTask(Camera2BasicFragment cameraFragment) {
         super();
         fragment = cameraFragment;
         index = 0;
-    }
-    @Override
-    protected Object doInBackground(Object[] params) {
-        System.out.println("ftp task started");
 
-
-        try{
-
+        try {
             JSch ssh = new JSch();
-            Session session = ssh.getSession("4chan", "52.168.21.141", 22);
+            session = ssh.getSession("4chan", "52.168.21.141", 22);
             // Remember that this is just for testing and we need a quick access, you can add an identity and known_hosts file to prevent
             // Man In the Middle attacks
             java.util.Properties config = new java.util.Properties();
@@ -52,15 +49,20 @@ public class FTPTask extends AsyncTask {
             session.setPassword("#hackthegibs0n");
 
             session.connect();
-            Channel channel = session.openChannel("sftp");
+            channel = session.openChannel("sftp");
             channel.connect();
 
-            ChannelSftp sftp = (ChannelSftp) channel;
+            sftp = (ChannelSftp) channel;
+        } catch (Exception e) {
 
-            //sftp.cd(directory);
-            // If you need to display the progress of the upload, read how to do it in the end of the article
+        }
+    }
+    @Override
+    protected Object doInBackground(Object[] params) {
+        System.out.println("ftp task started");
 
-            // use the put method , if you are using android remember to remove "file://" and use only the relative path
+
+        try{
 
             String Location = fragment.getActivity().getExternalFilesDir(null).toString();
             Log.v("DIRECTORY", Location);
@@ -84,15 +86,19 @@ public class FTPTask extends AsyncTask {
                 // The file has been uploaded succesfully
             }
 
-            channel.disconnect();
-            session.disconnect();
-        } catch (JSchException e) {
-            System.out.println(e.getMessage().toString());
-            e.printStackTrace();
+            //channel.disconnect();
+            //session.disconnect();
         } catch (SftpException e) {
             System.out.println(e.getMessage().toString());
             e.printStackTrace();
         }
         return null;
+    }
+
+    public void onShutdown() {
+        if(channel != null)
+            channel.disconnect();
+        if(session != null)
+            session.disconnect();
     }
 }

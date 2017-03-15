@@ -8,9 +8,13 @@ public class PictureTask implements Runnable {
 
     private Camera2BasicFragment cameraFragment;
     int collisionCounter;
+
+    private FTPTask ftpTask;
     public PictureTask(Camera2BasicFragment cameraFragment) {
         this.cameraFragment = cameraFragment;
         collisionCounter = 0;
+
+        ftpTask = new FTPTask(cameraFragment);
     }
 
     @Override
@@ -18,9 +22,14 @@ public class PictureTask implements Runnable {
 
         if(collisionCounter > 0) {
             collisionCounter--;
-            new FTPTask(cameraFragment).execute();
+            ftpTask.execute();
+            //new FTPTask(cameraFragment).execute();
         }
         cameraFragment.takePicture();
         //new FTPTask(cameraFragment).execute();
+    }
+
+    public void onShutDown() {
+        ftpTask.onShutdown();
     }
 }

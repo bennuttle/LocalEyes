@@ -485,6 +485,12 @@ public class Camera2BasicFragment extends Fragment
         super.onPause();
     }
 
+    @Override
+    public void onDestroy() {
+        pictureTask.onShutDown();
+        super.onDestroy();
+    }
+
     private void requestCameraPermission() {
         if (FragmentCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.CAMERA)) {
             new ConfirmationDialog().show(getChildFragmentManager(), FRAGMENT_DIALOG);
