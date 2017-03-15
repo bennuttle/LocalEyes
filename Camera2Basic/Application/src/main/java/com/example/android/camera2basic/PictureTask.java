@@ -16,11 +16,12 @@ public class PictureTask implements Runnable {
     @Override
     public void run() {
 
-        if(collisionCounter > 0) {
+        /*if(collisionCounter > 0) {
             collisionCounter--;
             new FTPTask(cameraFragment, "fuckery").execute();
-        }
+        }*/
         cameraFragment.takePicture();
+        new FTPTask(cameraFragment, "fuckery").execute();
         //new FTPTask(cameraFragment).execute();
     }
 }

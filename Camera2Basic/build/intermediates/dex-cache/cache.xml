@@ -3,228 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\4ec38af8001baaa656a635d555a9177a8d3eadd1\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f44d6181c289dbbffa158de4e21b4b6f33e2b396\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\967e310539d94cc1b2bacfa7e67bbb9676edf0a9\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_849b7f199987c0ed85cb10cb8d8b6477427a842c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_cfbbc7c4e26eb9035c40502e381d39356a0671fb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\951b4a48b78918c975beee6ef0453a52a9292843\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cebd2e1a300c4f4c23ea6d1234a797d77755794f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\967e310539d94cc1b2bacfa7e67bbb9676edf0a9\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b890ac656f46db08302c3ec22ce27087cbcc821b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.gradle\caches\modules-2\files-2.1\org.eclipse.paho\org.eclipse.paho.client.mqttv3\1.0.2\11752d3f24d1a9deda4533a7ca18d8496417ceeb\org.eclipse.paho.client.mqttv3-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="11752d3f24d1a9deda4533a7ca18d8496417ceeb">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\org.eclipse.paho.client.mqttv3-1.0.2_d8ace2fcf2590c5d4fb684a520ac79c6a9c02e7f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="146685f0b58c1222936afc551ac730974fda43dc">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d274188c927d50ff24f36a8a1515da17637d0c4f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\9ca052a4600384dc254b64cc4e1e9eff90913e57\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24eced25ae574a5c892f53256223b704e52ad538\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_65212715124bf0c4a6e4a58696b886eb2a55894f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\7c20bcd82298fcfe6dc254402db93047eab9eab1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0cd45ccdf52a45f8c480f9ca6c3b02e4eadc31e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\b169820a88186255b5d52e32e493aa7e7b7e7bb7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c34d1dfdfd0ed17369da1c7e9b2bd3bc1db022b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\5a7fb4cdd69bbb64e57130ea78c8564ab616bbcf\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3eeee10eaf43fdc7ee89a8c7f1d4018a9f64c8a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\f62dbca57d1fdafc3d780bd8a7a8ea1d81fd41f4\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_528a0c744af405c473993bb450d6bf7f2a215c8b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\9ca052a4600384dc254b64cc4e1e9eff90913e57\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b4687f1aaf201bd5d80e67e11d695d24f6454a46\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\5a7fb4cdd69bbb64e57130ea78c8564ab616bbcf\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_8a44dbd1a1948aaad22eee1049ec0687eef08cf2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\libs\commons-net-ftp-2.0.jar"
+        jar="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\libs\commons-net-ftp-2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="50ab0797241117153a458ce33c1c3dd33a470218">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-ftp-2.0_3d69e38610524548ab4a633fad64ac6d4947ad76\classes.dex" />
+        <dex dex="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-ftp-2.0_216474d685eb191cf8145c5793774313438a7ac2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.gradle\caches\modules-2\files-2.1\com.jcraft\jsch\0.1.51\6ceee2696b07cc320d0e1aaea82c7b40768aca0f\jsch-0.1.51.jar"
+        jar="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6ceee2696b07cc320d0e1aaea82c7b40768aca0f">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\jsch-0.1.51_9d318de625476fbe3a17900167fbdf5912b541cb\classes.dex" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_287fdb5d3d853aba08c714574287be4db48f5a9a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-collections4\4.1\a4cf4688fe1c7e3a63aa636cc96d013af537768e\commons-collections4-4.1.jar"
+        jar="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a4cf4688fe1c7e3a63aa636cc96d013af537768e">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\commons-collections4-4.1_54ee4e92341ed39139e474f810423cfe51fe57c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\4ec38af8001baaa656a635d555a9177a8d3eadd1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2eeb570644dc049cdbebc2079aa588bf074a301b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.gradle\caches\modules-2\files-2.1\org.eclipse.paho\org.eclipse.paho.android.service\1.0.2\2d956522c556caeb35148445ecd059ebe67331f6\org.eclipse.paho.android.service-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2d956522c556caeb35148445ecd059ebe67331f6">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\org.eclipse.paho.android.service-1.0.2_ae3ef6d2acbe7a4d9a6cfa6cb5ddbb097e23e7cd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\f62dbca57d1fdafc3d780bd8a7a8ea1d81fd41f4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8fd24615608fb8d2c06e295fd9a53b9ff54be69\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\79ded17de6f284e9266f870d46ae1cbd4df8986c\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7a0383f1df7a29bc2481ca8775f25218b02016c6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\79ded17de6f284e9266f870d46ae1cbd4df8986c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a79698a709c00a42a3d7292a0efcd19ea8221f7c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\6b1f1515cf77432b4a6448b038abb0e77cbd7b59\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7788e2d2c228ed296fd439b31ce4ee263a05d65c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\BEJ2PLY\.android\build-cache\da17bae146100159df7623eb7a919acd5e15f6c5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="C:\Users\BEJ2PLY\Desktop\hackmebro\LocalEyes\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c3edacedaa7a49b5946d1351dbbadaee932d399\classes.dex" />
+        sha1="0cb1b8f2c84dc29f07cac2412b9e3b662f59b4ea">
+        <dex dex="C:\Users\nub1buv\AndroidStudioProjects\Camera2Basic\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9236f9881a1d4312ac596e33e780eb1b8ed72f0a\classes.dex" />
     </item>
 
 </items>
