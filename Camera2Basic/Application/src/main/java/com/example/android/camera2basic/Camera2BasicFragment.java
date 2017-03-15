@@ -136,6 +136,9 @@ public class Camera2BasicFragment extends Fragment
      */
     private static final int MAX_PREVIEW_HEIGHT = 1080;
 
+    private boolean collisionEvent = false;
+    private String serverDirectory = ".";
+
     /**
      * {@link TextureView.SurfaceTextureListener} handles several lifecycle events on a
      * {@link TextureView}.
@@ -242,9 +245,11 @@ public class Camera2BasicFragment extends Fragment
     /**
      * This is the output file for our picture.
      */
-    private File[] mFile;
+    private File[] mFile1;
+    private File[] mFile2;
 
     private int imageBufferIndex = 0;
+    private int imageBufferSize = 100;
 
     /**
      * This a callback object for the {@link ImageReader}. "onImageAvailable" will be called when a
@@ -256,8 +261,12 @@ public class Camera2BasicFragment extends Fragment
         @Override
         public void onImageAvailable(ImageReader reader) {
             //mBackgroundHandler.post(new ImageSaver(reader.acquireNextImage(), mFile[((imageBufferIndex = imageBufferIndex++ % 10) - 1)]));
-            mBackgroundHandler.post(new ImageSaver(reader.acquireNextImage(), mFile[imageBufferIndex]));
-            imageBufferIndex = (imageBufferIndex+ 1) % 10;
+            if(!collisionEvent)
+                mBackgroundHandler.post(new ImageSaver(reader.acquireNextImage(), mFile1[imageBufferIndex]));
+            else {
+                mBackgroundHandler.post(new ImageSaver(reader.acquireNextImage(), mFile2[imageBufferIndex]));
+            }
+            imageBufferIndex = (imageBufferIndex+ 1) % imageBufferSize;
         }
 
     };
@@ -436,6 +445,8 @@ public class Camera2BasicFragment extends Fragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        collisionEvent = false;
+
         pictureTask = new PictureTask(this);
         mqttListener = new MQTTListener(this);
         mqttListener.execute();
@@ -453,9 +464,11 @@ public class Camera2BasicFragment extends Fragment
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        mFile = new File[10];
-        for (imageBufferIndex = 0; imageBufferIndex < 10; imageBufferIndex++) {
-            mFile[imageBufferIndex] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(imageBufferIndex) + ".jpg");
+        mFile1 = new File[imageBufferSize];
+        mFile2 = new File[imageBufferSize];
+        for (imageBufferIndex = 0; imageBufferIndex < imageBufferSize; imageBufferIndex++) {
+            mFile1[imageBufferIndex] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(imageBufferIndex) + ".jpg");
+            mFile2[imageBufferIndex] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(imageBufferIndex) + ".jpg");
         }
         imageBufferIndex = 0;
 
@@ -811,6 +824,18 @@ public class Camera2BasicFragment extends Fragment
         }*/
     }
 
+    public void setCollisionEvent(boolean event) {
+        collisionEvent = event;
+    }
+
+    public boolean getCollisionEvent() {
+        return collisionEvent;
+    }
+
+    public void changeServerDir(String dir) {
+        serverDirectory = dir;
+    }
+
     /**
      * Lock the focus as the first step for a still image capture.
      */
@@ -877,8 +902,8 @@ public class Camera2BasicFragment extends Fragment
                 public void onCaptureCompleted(@NonNull CameraCaptureSession session,
                                                @NonNull CaptureRequest request,
                                                @NonNull TotalCaptureResult result) {
-                    showToast("Saved: " + mFile[imageBufferIndex]);
-                    Log.d(TAG, mFile.toString());
+                    showToast("Saved: " + mFile1[imageBufferIndex]);
+                    Log.d(TAG, mFile1[imageBufferIndex].toString());
                     unlockFocus();
                 }
             };
@@ -929,7 +954,7 @@ public class Camera2BasicFragment extends Fragment
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
-                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 100, 100, TimeUnit.MILLISECONDS);
+                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 500, 500, TimeUnit.MILLISECONDS);
                 break;
             }
             case R.id.info: {

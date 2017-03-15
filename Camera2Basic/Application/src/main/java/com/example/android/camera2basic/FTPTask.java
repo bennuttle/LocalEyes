@@ -65,8 +65,9 @@ public class FTPTask extends AsyncTask {
                 Log.v("FILE", "NOTOK");
             }
             if(sftp != null) {
-                System.out.println("/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
-                sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
+                //System.out.println("/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
+                //sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
+                sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + collisionDir + File.separator + fileName);
             }
             index = ++index % 10;
 
