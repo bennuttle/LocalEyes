@@ -32,12 +32,12 @@ public class FTPTask extends AsyncTask {
     private ChannelSftp sftp;
     private Channel channel;
     private Session session;
-    private int index;
+    //private int index;
     private String collisionDir;
     public FTPTask(Camera2BasicFragment cameraFragment) {
         super();
         fragment = cameraFragment;
-        index = 0;
+        //index = 0;
         //this.collisionDir = collisionDir;
     }
     @Override
@@ -54,28 +54,40 @@ public class FTPTask extends AsyncTask {
             String Location = fragment.getActivity().getExternalFilesDir(null).toString();
             Log.v("DIRECTORY", Location);
             SecureRandom random = new SecureRandom();
-            String nextSessionId = new BigInteger(130, random).toString(32);
-            Log.v("RANDOM", nextSessionId);
-            String fileName = nextSessionId + ".jpg";
+            //String nextSessionId; = new BigInteger(130, random).toString(32);
+            //Log.v("RANDOM", nextSessionId);
+            String fileName;// = nextSessionId + ".jpg";
 
-            File test = new File(Location + File.separator + "CrashPicture" + index + ".jpg");
+            /*File test = new File(Location + File.separator + "CrashPicture" + index + ".jpg");
             if(test.exists()) {
-                Log.v("FILE", "OK");
-            } else {
-                Log.v("FILE", "NOTOK");
-            }
+                if(sftp != null) {
+                    sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + collisionDir + File.separator + fileName);
+                }
+            } */
+
+            File ftpFile;
+
             if(sftp != null) {
-                //System.out.println("/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
-                //sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + new String(collisionDir) + File.separator + fileName);
+                for(int index = 0; index < 2 * fragment.getBufferSize(); index++) {
+                    ftpFile = new File(Location + File.separator + "CrashPicture" + index + ".jpg");
+
+                    if (ftpFile.exists()) {
+                        fileName = new BigInteger(130, random).toString(32) + ".jpg";
+                        sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + collisionDir + File.separator + fileName);
+                    }
+                }
+            }
+            /*if(sftp != null) {
+
                 sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + collisionDir + File.separator + fileName);
-            }
-            index = ++index % 10;
+            }*/
+            //index = ++index % 10;
 
-            Boolean success = true;
+            //Boolean success = true;
 
-            if (success) {
+            //if (success) {
                 // The file has been uploaded succesfully
-            }
+            //}
 
             //channel.disconnect();
             //session.disconnect();

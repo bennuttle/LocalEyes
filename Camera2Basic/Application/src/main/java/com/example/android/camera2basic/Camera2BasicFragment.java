@@ -88,6 +88,7 @@ public class Camera2BasicFragment extends Fragment
 
     private PictureTask pictureTask;
     private MQTTListener mqttListener;
+    private FTPTask ftpTask;
 
     static {
         ORIENTATIONS.append(Surface.ROTATION_0, 90);
@@ -449,6 +450,7 @@ public class Camera2BasicFragment extends Fragment
 
         pictureTask = new PictureTask(this);
         mqttListener = new MQTTListener(this);
+        ftpTask = new FTPTask(this);
         mqttListener.execute();
         return inflater.inflate(R.layout.fragment_camera2_basic, container, false);
     }
@@ -468,7 +470,7 @@ public class Camera2BasicFragment extends Fragment
         mFile2 = new File[imageBufferSize];
         for (imageBufferIndex = 0; imageBufferIndex < imageBufferSize; imageBufferIndex++) {
             mFile1[imageBufferIndex] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(imageBufferIndex) + ".jpg");
-            mFile2[imageBufferIndex] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(imageBufferIndex) + ".jpg");
+            mFile2[imageBufferIndex] = new File(getActivity().getExternalFilesDir(null), "CrashPicture" + Integer.toString(imageBufferSize + imageBufferIndex) + ".jpg");
         }
         imageBufferIndex = 0;
 
@@ -500,7 +502,7 @@ public class Camera2BasicFragment extends Fragment
 
     @Override
     public void onDestroy() {
-        pictureTask.onShutDown();
+        ftpTask.onShutdown();
         super.onDestroy();
     }
 
@@ -830,6 +832,14 @@ public class Camera2BasicFragment extends Fragment
 
     public boolean getCollisionEvent() {
         return collisionEvent;
+    }
+
+    public int getBufferSize() {
+        return imageBufferSize;
+    }
+
+    public void startFTP() {
+        ftpTask.execute();
     }
 
     public void changeServerDir(String dir) {
