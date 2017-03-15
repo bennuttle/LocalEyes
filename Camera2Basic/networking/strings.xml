@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LocalEyes</string>
+
+    <string name="welcome">LocalEyes</string>
+    <string name="user">username</string>
+    <string name="domain">\</string>
+    <string name="password">password</string>
+    <string name="login_button">Login</string>
+    <string name="logo_content">Bosch logo</string>
+</resources>
