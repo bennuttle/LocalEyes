@@ -1,4 +1,4 @@
-package com.bej2ply.worksmart;
+package com.example.android.camera2basic;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
+/*import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -30,15 +30,11 @@ import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.Arrays;*/
 
 public class LoginActivity extends AppCompatActivity {
 
     private Context context = this;
-    private static XMPPTCPConnection connection;
-    private static final String SA_SERVICE = "sensor.andrew.cmu.edu";
-    private static final String HOST = "sensor.andrew.cmu.edu";
-    private static final int PORT = 5222;
     private static final String TAG = "BCWHACCKZZZZZZ";
 
     private FTPTask ftpTask;
@@ -60,10 +56,10 @@ public class LoginActivity extends AppCompatActivity {
         //Remove notification bar
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_login);
+        //setContentView(R.layout.activity_login);
 
-        final Button loginBtn = (Button) findViewById(R.id.loginBtn);
-        loginBtn.setOnClickListener(new View.OnClickListener() {
+        //final Button loginBtn = (Button) findViewById(R.id.loginBtn);
+        /*loginBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 String clientId = MqttClient.generateClientId();
@@ -128,7 +124,7 @@ public class LoginActivity extends AppCompatActivity {
 //                String password = pass_field.getText().toString();
 
             }
-        });
+        });*/
     }
 
 }

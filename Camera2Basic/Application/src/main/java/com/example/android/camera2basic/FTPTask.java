@@ -1,4 +1,4 @@
-package com.bej2ply.worksmart;
+package com.example.android.camera2basic;
 
 import android.os.AsyncTask;
 import android.os.Environment;
