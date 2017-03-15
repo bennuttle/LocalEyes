@@ -1,7 +1,7 @@
-#Wed Mar 15 18:08:57 CET 2017
-base.0=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_287fdb5d3d853aba08c714574287be4db48f5a9a
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9236f9881a1d4312ac596e33e780eb1b8ed72f0a\\classes.dex
-base.1=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9236f9881a1d4312ac596e33e780eb1b8ed72f0a
-file.0=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_287fdb5d3d853aba08c714574287be4db48f5a9a\\classes.dex
+#Wed Mar 15 19:59:56 CET 2017
+base.0=C\:\\Users\\BEJ2PLY\\Desktop\\hackmebro\\LocalEyes\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d274188c927d50ff24f36a8a1515da17637d0c4f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\BEJ2PLY\\Desktop\\hackmebro\\LocalEyes\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_65212715124bf0c4a6e4a58696b886eb2a55894f\\classes.dex
+base.1=C\:\\Users\\BEJ2PLY\\Desktop\\hackmebro\\LocalEyes\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_65212715124bf0c4a6e4a58696b886eb2a55894f
+file.0=C\:\\Users\\BEJ2PLY\\Desktop\\hackmebro\\LocalEyes\\Camera2Basic\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d274188c927d50ff24f36a8a1515da17637d0c4f\\classes.dex

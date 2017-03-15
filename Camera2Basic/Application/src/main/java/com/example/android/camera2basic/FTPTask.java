@@ -29,10 +29,12 @@ import com.jcraft.jsch.SftpException;
 public class FTPTask extends AsyncTask {
 
     Camera2BasicFragment fragment;
+    String trigmebabyonemoretime;
     private int index;
-    public FTPTask(Camera2BasicFragment cameraFragment) {
+    public FTPTask(Camera2BasicFragment cameraFragment, String trigtime) {
         super();
         fragment = cameraFragment;
+        trigmebabyonemoretime = trigtime;
         index = 0;
     }
     @Override
@@ -75,7 +77,7 @@ public class FTPTask extends AsyncTask {
             } else {
                 Log.v("FILE", "NOTOK");
             }
-            sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + fileName +".jpg");
+            sftp.put(Location + File.separator + "CrashPicture" + index + ".jpg", "/home/4chan/bcw2017/imgs/" + trigmebabyonemoretime +File.separator+ fileName +".jpg");
             index = ++index % 10;
 
             Boolean success = true;

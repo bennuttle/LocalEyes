@@ -18,7 +18,7 @@ public class PictureTask implements Runnable {
 
         if(collisionCounter > 0) {
             collisionCounter--;
-            new FTPTask(cameraFragment).execute();
+            new FTPTask(cameraFragment, "fuckery").execute();
         }
         cameraFragment.takePicture();
         //new FTPTask(cameraFragment).execute();

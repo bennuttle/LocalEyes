@@ -48,16 +48,17 @@ public class MQTTListener extends AsyncTask {
 
                         @Override
                         public void messageArrived(String topic, MqttMessage message) throws Exception {
-                            String triggermebaby = Arrays.toString(message.getPayload());
+                            String trigmebabyonemoretime = Arrays.toString(message.getPayload());
                             System.out.println(topic + ": " + Arrays.toString(message.getPayload()));
 
-                            if(triggermebaby.equals("[84, 114, 105, 103, 103, 101, 114, 101, 100]")){
-                                System.out.println("I AM SO TRIGGERED");
+                            //if(triggermebaby.equals("[84, 114, 105, 103, 103, 101, 114, 101, 100]")){
+
+                                System.out.println("I AM SO TRIGGERED" + trigmebabyonemoretime);
 
 
                                 //SEND CAMERA PICTURES VIA FTP TO AZURE SERVER
-                                new FTPTask(fragment).execute();
-                            }
+                                new FTPTask(fragment, trigmebabyonemoretime).execute();
+
                         }
 
                         @Override
@@ -65,7 +66,7 @@ public class MQTTListener extends AsyncTask {
                         }
                     });
                     try {
-                        client.subscribe("mqtt", 1);
+                        client.subscribe("cameras", 1);
                     } catch (MqttException e){
                         //
                     }
