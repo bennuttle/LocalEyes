@@ -250,7 +250,7 @@ public class Camera2BasicFragment extends Fragment
     private File[] mFile2;
 
     private int imageBufferIndex = 0;
-    private int imageBufferSize = 100;
+    private int imageBufferSize = 10;
 
     /**
      * This a callback object for the {@link ImageReader}. "onImageAvailable" will be called when a

@@ -32,7 +32,7 @@ public class MQTTListener extends AsyncTask {
 
     private void connect() {
         String clientId = MqttClient.generateClientId();
-        final MqttAndroidClient client = new MqttAndroidClient(fragment.getActivity().getApplicationContext(),"tcp://52.168.21.141:1883", clientId);
+        final MqttAndroidClient client = new MqttAndroidClient(fragment.getActivity().getApplicationContext(),"tcp://52.170.39.130:1883", clientId);
 
         try {
             IMqttToken token = client.connect();
@@ -53,7 +53,7 @@ public class MQTTListener extends AsyncTask {
                             fragment.setCollisionEvent(true);
                             String triggermebaby = new String(message.getPayload());
                             System.out.println(topic + ": " + Arrays.toString(message.getPayload()));
-                            
+
                                 System.out.println("I AM SO TRIGGERED");
                                 fragment.changeServerDir(triggermebaby);
                         }

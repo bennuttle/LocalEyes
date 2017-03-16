@@ -101,7 +101,7 @@ public class FTPTask extends AsyncTask {
     private void connect() {
         try {
             JSch ssh = new JSch();
-            session = ssh.getSession("4chan", "52.168.21.141", 22);
+            session = ssh.getSession("4chan", "52.170.39.130", 22);
             // Remember that this is just for testing and we need a quick access, you can add an identity and known_hosts file to prevent
             // Man In the Middle attacks
             java.util.Properties config = new java.util.Properties();
