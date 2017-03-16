@@ -948,6 +948,7 @@ public class Camera2BasicFragment extends Fragment
             // Reset the auto-focus trigger
             mPreviewRequestBuilder.set(CaptureRequest.CONTROL_AF_TRIGGER,
                     CameraMetadata.CONTROL_AF_TRIGGER_CANCEL);
+
             setAutoFlash(mPreviewRequestBuilder);
             mCaptureSession.capture(mPreviewRequestBuilder.build(), mCaptureCallback,
                     mBackgroundHandler);
@@ -964,7 +965,7 @@ public class Camera2BasicFragment extends Fragment
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
-                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 500, 500, TimeUnit.MILLISECONDS);
+                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 1000, 1000, TimeUnit.MILLISECONDS);
                 break;
             }
             case R.id.info: {
@@ -981,9 +982,19 @@ public class Camera2BasicFragment extends Fragment
     }
 
     private void setAutoFlash(CaptureRequest.Builder requestBuilder) {
-        if (mFlashSupported) {
+        /*if (mFlashSupported) {
             requestBuilder.set(CaptureRequest.CONTROL_AE_MODE,
                     CaptureRequest.CONTROL_AE_MODE_ON_AUTO_FLASH);
+        }*/
+
+        if (mFlashSupported && collisionEvent) {
+            requestBuilder.set(CaptureRequest.CONTROL_AE_MODE,
+                    CaptureRequest.CONTROL_AE_MODE_ON_ALWAYS_FLASH);
+        }
+
+        else if (mFlashSupported && !collisionEvent) {
+            requestBuilder.set(CaptureRequest.CONTROL_AE_MODE,
+                    CaptureRequest.CONTROL_AE_MODE_OFF);
         }
     }
 
