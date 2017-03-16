@@ -250,7 +250,7 @@ public class Camera2BasicFragment extends Fragment
     private File[] mFile2;
 
     private int imageBufferIndex = 0;
-    private int imageBufferSize = 10;
+    private int imageBufferSize = 3;
 
     /**
      * This a callback object for the {@link ImageReader}. "onImageAvailable" will be called when a
@@ -965,7 +965,7 @@ public class Camera2BasicFragment extends Fragment
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
-                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 1000, 1000, TimeUnit.MILLISECONDS);
+                threadPoolExecutor.scheduleWithFixedDelay(pictureTask, 2000, 2000, TimeUnit.MILLISECONDS);
                 break;
             }
             case R.id.info: {
@@ -994,7 +994,7 @@ public class Camera2BasicFragment extends Fragment
 
         else if (mFlashSupported && !collisionEvent) {
             requestBuilder.set(CaptureRequest.CONTROL_AE_MODE,
-                    CaptureRequest.CONTROL_AE_MODE_OFF);
+                    CaptureRequest.CONTROL_AE_MODE_ON_AUTO_FLASH);
         }
     }
 

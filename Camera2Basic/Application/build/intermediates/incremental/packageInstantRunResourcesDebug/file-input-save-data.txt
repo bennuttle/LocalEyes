@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Mar 15 21:18:48 CET 2017
+#Thu Mar 16 11:36:37 CET 2017
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_edittext.xml
 118.set=ANDROID_RESOURCE
@@ -13,7 +13,7 @@
 107.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 159.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 125.set=ANDROID_RESOURCE
-80.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_color_highlight_material.xml
+80.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png
 134.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 186.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 161.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
@@ -59,7 +59,7 @@
 128.set=ANDROID_RESOURCE
 70.set=ANDROID_RESOURCE
 27.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_out_bottom.xml
-79.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png
+79.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_color_highlight_material.xml
 31.set=ANDROID_RESOURCE
 54.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png
 108.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
@@ -131,7 +131,7 @@
 94.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v11\\notification_media_action.xml
 148.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 69.set=ANDROID_RESOURCE
-169.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png
+169.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_action_bar_item_background_material.xml
 123.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 144.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_switch_track.xml
 175.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
@@ -172,7 +172,7 @@
 116.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
 191.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
-170.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_action_bar_item_background_material.xml
+170.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png
 162.set=ANDROID_RESOURCE
 37.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 123.set=ANDROID_RESOURCE
@@ -267,7 +267,7 @@
 85.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_out_top.xml
 139.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 32.set=ANDROID_RESOURCE
-60.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png
+60.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_default.xml
 114.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 91.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 166.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
@@ -317,7 +317,7 @@
 86.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png
 40.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 42.set=ANDROID_RESOURCE
-61.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_default.xml
+61.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png
 115.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 92.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 167.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
@@ -391,7 +391,7 @@ count=193
 128.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 103.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 155.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
-7.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png
+7.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png
 130.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 182.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 131.set=ANDROID_RESOURCE
@@ -442,7 +442,7 @@ count=193
 50.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png
 104.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 156.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
-8.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png
+8.file=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png
 131.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 183.base=C\:\\Users\\nub1buv\\AndroidStudioProjects\\Camera2Basic\\Application\\build\\intermediates\\res\\resources-debug.ap_
 141.set=ANDROID_RESOURCE
