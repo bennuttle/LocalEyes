@@ -843,7 +843,7 @@ public class Camera2BasicFragment extends Fragment
     }
 
     public void changeServerDir(String dir) {
-        serverDirectory = dir;
+        ftpTask.changeDir(dir);
     }
 
     /**

@@ -53,16 +53,9 @@ public class MQTTListener extends AsyncTask {
                             fragment.setCollisionEvent(true);
                             String triggermebaby = new String(message.getPayload());
                             System.out.println(topic + ": " + Arrays.toString(message.getPayload()));
-
-                            //if(triggermebaby.equals("[84, 114, 105, 103, 103, 101, 114, 101, 100]")){
+                            
                                 System.out.println("I AM SO TRIGGERED");
-
-
-                                //SEND CAMERA PICTURES VIA FTP TO AZURE SERVER
                                 fragment.changeServerDir(triggermebaby);
-                                //ftpTask.execute();
-                                //new FTPTask(fragment).execute();
-                            //}
                         }
 
                         @Override

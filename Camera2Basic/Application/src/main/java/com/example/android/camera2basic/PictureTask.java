@@ -33,16 +33,6 @@ public class PictureTask implements Runnable {
         //TODO need to check a collision event from CameraFragment, implement a counter equal to bufferSize. After counter has been filled, launch FTP transfer event.
         //TODO clear the collision event after the counter has expired (new buffer is fully filled)
         //TODO need to change FTP logic to empty both buffers on a single method run
-        /*if(collisionCounter > 0) {
-            collisionCounter--;
-            ftpTask.execute();
-            //new FTPTask(cameraFragment).execute();
-        }*/
         cameraFragment.takePicture();
     }
-
-    //TODO need to call onshutdown from CameraFragment.
-    /*public void onShutDown() {
-        ftpTask.onShutdown();
-    }*/
 }
